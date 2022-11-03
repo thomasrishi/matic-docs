@@ -74,15 +74,9 @@ More details on Heimdall are available on the [Heimdall architecture](/docs/pos/
 
 ### Bor
 
-Bor is Polygon's sidechain block producer — the entity responsible for aggregating transactions into blocks.
+Bor is Polygon's sidechain block producer layer - the entity responsible for aggregating transactions into blocks.  Currently, it is a basic Geth implementation with custom changes done to the consensus algorithm.
 
-Bor block producers are a subset of the validators and are shuffled periodically by the [Heimdall](/docs/maintain/glossary#heimdall) validators.
-
-See also [Bor architecture](/docs/pos/bor/overview).
-
-Bor is Polygon's block producer layer - the entity responsible for aggregating transactions into blocks.  Currently, it is a basic Geth implementation with custom changes done to the consensus algorithm.
-
-Block producers are periodically shuffled via committee selection on Heimdall in durations termed
+Block producers are a subnet of the validators and are periodically shuffled via committee selection on [Heimdall](/docs/maintain/glossary#heimdall) in durations termed
 as a `span` in Polygon. Blocks are produced at the **Bor** node, and the sidechain VM is EVM-compatible.
 Blocks produced on Bor are also validated periodically by Heimdall nodes, and a checkpoint consisting of
 the Merkle tree hash of a set of blocks on Bor is committed to Ethereum periodically.
@@ -91,6 +85,6 @@ More details are available on the [Bor architecture](/docs/pos/bor/overview) gui
 
 ### Resources
 
-* [Bor Architecture](https://forum.polygon.technology/t/matic-system-overview-bor/9123)
+* [Bor Architecture](https://wiki.polygon.technology/docs/pos/bor)
 * [Heimdall Architecture](https://forum.polygon.technology/t/matic-system-overview-heimdall/8323)
 * [Checkpoint Mechanism](https://forum.polygon.technology/t/checkpoint-mechanism-on-heimdall/7160)
