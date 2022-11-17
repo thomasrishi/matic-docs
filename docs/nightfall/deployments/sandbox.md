@@ -153,7 +153,7 @@ We also need to add a script that will install and run Nightfall automatically w
 ```bash title="nightfall.sh"
 #!/bin/bash
 
-## Installing docker
+## Installing Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 sudo groupadd docker
