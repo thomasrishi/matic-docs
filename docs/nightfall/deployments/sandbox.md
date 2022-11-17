@@ -217,5 +217,5 @@ Using the IP address you have from the previous step, you should be able to acce
 
 ### Other cloud providers
 
-The above script will work in any remote machine running Ubuntu. This means that, if you don't use AWS, you can simply run this script on any remote machine run by your preferred cloud provider. For now we don't provide a handy Terraform script to deploy these EC2 instances.
+The above script will work on any remote machine running Ubuntu. If you don't use AWS, you can run this script on any remote machine your preferred cloud provider runs. We don't provide a handy Terraform script to deploy these EC2 instances.
 
