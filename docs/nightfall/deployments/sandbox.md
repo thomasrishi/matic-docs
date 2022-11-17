@@ -212,7 +212,7 @@ If you want to see the whole process running, access your instance with `ssh -i 
 Using the IP address you have from the previous step, you should be able to access the services.
 
 - On port 8080 you have a nightfall client you can connect to with `nightfall-sdk`, `postman`, etc. 
-- On 8081 you'll find the optimist. 
+- On 8081, you'll find the optimist. 
 - On 8092 you'll reach the proposer.
 
 ### Other cloud providers
