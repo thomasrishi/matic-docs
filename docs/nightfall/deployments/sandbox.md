@@ -1,6 +1,6 @@
 ---
 id: sandbox
-title: Sandbox
+title: Run Nightfall on a Sandboxed Environment
 sidebar_label: Sandbox
 description: "To run a simple cloud deployment"
 keywords:
