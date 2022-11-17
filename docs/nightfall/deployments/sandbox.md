@@ -1,7 +1,7 @@
 ---
 id: sandbox
 title: Sandbox
-sidebar_label: Sandboxed
+sidebar_label: Sandbox
 description: "To run a simple cloud deployment"
 keywords:
   - docs
