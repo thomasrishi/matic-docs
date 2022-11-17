@@ -15,7 +15,7 @@ image: https://matic.network/banners/matic-network-16x9.png
 
 ## Tools
 
-To run Nightfall on your own "sandboxed" environment means that you'll have a running network on a ganache network, together with an optimist, a worker, a client, and any other services you need to start working on your own Nightfall integration.
+Running Nightfall on your own "sandboxed" environment means you'll have a running ganache network, together with an optimist, a worker, a client, and any other services you need to start working on your Nightfall integration.
 
 Instructions here assume a deployment on AWS, although you should be able to mimic them for any other cloud service provider (see the relevant section below). We will be deploying a single EC2 instance running the `./start-nightfall` script, while exposing the ports needed to interact with it.
 
