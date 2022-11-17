@@ -26,7 +26,8 @@ The instructions in this guide assume a deployment on AWS, although you should b
 This guide leverages [Terraform](https://www.terraform.io/) as it allows easy, reusable infrastructure-as-code that can expand to suit your needs. To install Terraform, follow the instructions [here](https://www.terraform.io/downloads).
 
 ### AWS account
-If you don't have an AWS account, you should create one [here](https://aws.amazon.com) and follow the instructions [here](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html) on how to get credentials, AKA `access_key` and `secret_key`. Take a note of them as we will be using them for our deployment.
+
+If you don't have an AWS account, you should create one [here](https://aws.amazon.com) and follow the instructions [here](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html) on how to get credentials, AKA `access_key` and `secret_key`. Please note them, as we will be using them for our deployment.
 
 ### A ssh key pair (optional)
 If you want to access your EC2 instance via SSH, you need a keypair. You may do so by following the instructions [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html#having-ec2-create-your-key-pair).
