@@ -94,6 +94,7 @@ The following wallets are solutions that Polygon Technology has partnered with:
 | [Wirex](https://wirexapp.com/en/wirex-wallet)* 	| non-custodial 	| EOA 	| no 	| no 	| no 	|  	|  	| mobile 	|
 | [XDeFi](https://www.xdefi.io/) 	| non-custodial 	| EOA 	| no 	| interface 	| no 	| no 	| no 	| browser 	|
 | [Zerion](https://zerion.io/) 	| non-custodial 	| EOA 	| no 	| no 	| yes 	|  	|  	| mobile, browser 	|
+| [Cypherock] (https://www.cypherock.com/) | non-custodial | EOA | no | no | no | no | no | no | desktop
 
 :::caution Non-native wallet support
 
