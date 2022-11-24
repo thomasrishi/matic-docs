@@ -4,8 +4,7 @@ title: Wallets
 sidebar_label: Getting Started
 description: Get a list of supported wallets and manage key strategy.
 keywords:
-  - docs
-  - matic
+  - wiki
   - polygon
   - wallet
   - integrate
